@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       My app
-      <my-button data-text='hello' />
+      <my-button text='hello'/>
+      <button>Heelo</button>
     </div>
   );
 }

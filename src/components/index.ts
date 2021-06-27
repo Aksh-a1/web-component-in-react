@@ -7,7 +7,8 @@ declare global {
 }
 
 interface MyButtonProps {
-  'data-text': string
+  text: string
+  component?: string
 }
 
 export {}
